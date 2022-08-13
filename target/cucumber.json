@@ -1,0 +1,325 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5036882300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.beforeEachMethod()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "User should be able to login with valid credentials",
+        "description": "and open a new account",
+        "id": "techfios-bank-and-cash-new-account-functionality;user-should-be-able-to-login-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1104578200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1488330400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is on the TechFios login page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_the_TechFios_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6789100,
+              "error_message": "java.lang.NullPointerException\r\n\tat steps.LoginStepDefinition.user_enters_username_as(LoginStepDefinition.java:43)\r\n\tat ✽.When User enters username as \"demo@techfios.com\"(features/BankandCash.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "User enters username as \"demo@techfios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_username_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User  enters password as \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc123",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_password_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User clicks on the Submit button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_the_Submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User should land on dashboard page",
+            "match": {
+              "location": "LoginStepDefinition.user_should_land_on_dashboard_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User clicks on Bank and Cash Button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_Bank_and_Cash_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User Clicks on New Account Button",
+            "match": {
+              "location": "LoginStepDefinition.user_Clicks_on_New_Account_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User Should Land on Accounts Page",
+            "match": {
+              "location": "LoginStepDefinition.user_Should_Land_on_Accounts_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "User enters AccountTitle as \"saving126789\" in account page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "saving126789",
+                  "offset": 29
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_AccountTitle_as_in_account_page(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User enters Description as \"new customer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "new customer",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_Description_as(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "User enters InitialBalance as \"\u003cinitialBalance\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cinitialBalance\u003e",
+                  "offset": 31
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_InitialBalance_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "User enters AccountNumber as \"66778wer4566\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "66778wer4566",
+                  "offset": 30
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_AccountNumber_as(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User enters ContactPerson as \"Rowda\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rowda",
+                  "offset": 30
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_ContactPerson_as(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "User enters PhoneNumber as \"9402559053\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9402559053",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_PhoneNumber_as(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "User enters InternetBanking url as \"\u003cInternetBankingURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cInternetBankingURL\u003e",
+                  "offset": 36
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_InternetBanking_url_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "User clicks on SubmitButton",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_SubmitButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "User should be able to validate account created successfully",
+            "match": {
+              "location": "LoginStepDefinition.user_should_be_able_to_validate_account_created_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@BankandCashLoginFeature"
+          },
+          {
+            "line": 4,
+            "name": "@BankandCashScenario1"
+          }
+        ]
+      }
+    ],
+    "name": "Techfios bank and cash New Account Functionality",
+    "description": "",
+    "id": "techfios-bank-and-cash-new-account-functionality",
+    "keyword": "Feature",
+    "uri": "features/BankandCash.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@BankandCashLoginFeature"
+      }
+    ]
+  }
+]
