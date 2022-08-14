@@ -25,9 +25,9 @@ public class LoginStepDefinition extends TestBase {
 	public void beforeEachMethod() {
 		
 		initDriver(); 
-		LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
-		DashboardPage dashboardPage = PageFactory.initElements(driver, DashboardPage.class);
-		AddNewAccountsPage addNewAccount = PageFactory.initElements(driver, AddNewAccountsPage.class);
+		loginPage = PageFactory.initElements(driver, LoginPage.class);
+		dashboardPage = PageFactory.initElements(driver, DashboardPage.class);
+		addNewAccount = PageFactory.initElements(driver, AddNewAccountsPage.class);
 		
 	}
 	
